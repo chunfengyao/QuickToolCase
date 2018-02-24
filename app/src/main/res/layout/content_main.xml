@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.ycf.tools.quicktoolcase.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/switch_useWirelessADB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="32dp"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/switch_remountSystem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="32dp"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch_useWirelessADB"
+        />
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/switch_rmQQUselessData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="32dp"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch_remountSystem"
+        />
+
+    <TextView
+        android:id="@+id/textView_useWirelessADB"
+        android:layout_width="0dp"
+        android:layout_height="23dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/useWirelessADB"
+        android:textColor="#ff000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/switch_useWirelessADB"
+        app:layout_constraintEnd_toStartOf="@+id/switch_useWirelessADB"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/switch_useWirelessADB"
+        />
+
+    <TextView
+        android:id="@+id/textView_remountSystem"
+        android:layout_width="0dp"
+        android:layout_height="23dp"
+        android:layout_marginBottom="56dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="57dp"
+        android:text="@string/remountSystem"
+        android:textColor="#ff000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/switch_rmQQUselessData"
+        app:layout_constraintEnd_toStartOf="@+id/switch_remountSystem"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/textView_rmQQUselessData"
+        android:layout_width="0dp"
+        android:layout_height="23dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginStart="36dp"
+        android:text="@string/rmQQUselessData"
+        android:textColor="#ff000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/switch_rmQQUselessData"
+        app:layout_constraintEnd_toStartOf="@+id/switch_rmQQUselessData"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/switch_rmQQUselessData"
+        />
+
+</android.support.constraint.ConstraintLayout>

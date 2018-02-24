@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">QuickToolCase</string>
+    <string name="Contact">Contact</string>
+    <string name="Share">Share</string>
+    <string name="header_discription">miniMime</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="useWirelessADB">使用网络ABD</string>
+    <string name="remountSystem">挂载/system为可读写</string>
+    <string name="rmQQUselessData">精简QQ的内部data文件夹</string>
+    <string name="onBackgroundRequest">正在查询当前的状态</string>
+    <string name="contactMeTextTips">请描述一下您遇到的问题或者提出的建议，谢谢。</string>
+
+
+    <string name="action_settings">Settings</string>
+</resources>
